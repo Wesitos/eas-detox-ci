@@ -9,6 +9,7 @@
     },
     "development-sim": {
       "distribution": "internal",
+      "developmentClient": true,
       "ios": {
         "simulator": true
       }
