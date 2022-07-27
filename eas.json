@@ -12,6 +12,11 @@
       "developmentClient": true,
       "ios": {
         "simulator": true
+      },
+      "android": {
+        "env": {
+          "GRADLE_OPTS": "-DtestBuildType=release"
+        }
       }
     },
     "preview": {
